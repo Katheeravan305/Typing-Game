@@ -1,0 +1,85 @@
+body {
+  background-color: blueviolet;
+}
+
+.container {
+  margin-top: 10%;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.h {
+  text-align: center;
+  color: white;
+}
+
+.banner-top {
+  background-color: tomato;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding-bottom: 1px;
+  padding-top: 5px;
+}
+
+.banner-bottom {
+  padding-top: 10px;
+  padding-bottom: 25px;
+  background-color: blanchedalmond;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.banner-bottom-middle {
+  justify-content: space-around;
+  text-align: center;
+}
+
+.instruction {
+  color: tomato;
+  text-align: center;
+  font-size: large;
+}
+
+.start {
+  text-align: center;
+}
+
+.words {
+  text-align: center;
+  font-size: 80px;
+}
+
+.button {
+  width: 120px;
+  height: 50px;
+  font-size: xx-large;
+  background-color: tomato;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.button:active {
+  background-color: gold;
+}
+
+.button:disabled {
+  background-color: gold;
+}
+
+.middle-parent {
+  display: flex;
+}
+
+.middle {
+  flex: 1;
+  display: inline-block;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.correct {
+  background-color: aqua;
+}
